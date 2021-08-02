@@ -1,2 +1,2 @@
-# eucgenie
-EucGenIE Dev
+# PlantGenIE
+PlantGenIE Dev
