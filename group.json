@@ -2,63 +2,55 @@
    "nodes":[
       {
          "id":"nat",
-         "age":20,
          "name":"Nathaniel Street",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"elena",
-         "age":15,
          "name":"Elena van Zalen",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"vikash",
-         "age":16,
          "name":"Vikash Kumar",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"andreas",
-         "age":35,
+         "age":2,
          "name":"Andreas Schneider",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"sara",
-         "age":35,
          "name":"Sara Westman",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"eduardo",
-         "age":38,
          "name":"Eduardo Rodriguez",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"camila",
-         "age":42,
          "name":"Camilla Canovi",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"chanaka",
-         "age":37,
          "name":"Chanaka Mannapperuma",
          "loaded":true,
          "auras":"StreetLab"
       },
       {
          "id":"teitur",
-         "age":60,
          "name":"Teitur Ahlgren Kalman",
          "loaded":true,
          "auras":[
@@ -68,7 +60,6 @@
       },
       {
          "id":"nico",
-         "age":63,
          "name":"Nicolas Delhomme",
          "loaded":true,
          "auras":[
@@ -78,7 +69,6 @@
       },
       {
          "id":"kristina",
-         "age":17,
          "name":"Kristina Benevidez",
          "loaded":true,
          "auras":[
@@ -88,56 +78,48 @@
       },
       {
          "id":"hannele",
-         "age":21,
          "name":"Hannele Tuominen",
          "loaded":true,
          "auras":""
       },
       {
          "id":"totte",
-         "age":26,
          "name":"Totte Niittyla",
          "loaded":true,
          "auras":""
       },
       {
          "id":"torgeir",
-         "age":29,
          "name":"Torgeir Hvidsten",
          "loaded":true,
          "auras":"External collaborators"
       },
       {
          "id":"andrea",
-         "age":28,
          "name":"Andrea Zuccolo",
          "loaded":true,
          "auras":"External collaborators"
       },
       {
          "id":"vaughan",
-         "age":21,
          "name":"Vaughan Hurry",
          "loaded":true,
          "auras":""
       },
       {
          "id":"torgny",
-         "age":17,
          "name":"Torgny Näsholm",
          "loaded":true,
          "auras":""
       },
       {
          "id":"sandra",
-         "age":26,
          "name":"Sandra Jämtgård",
          "loaded":true,
          "auras":""
       },
       {
          "id":"wout",
-         "age":26,
          "name":"Wout Boerjan",
          "loaded":true,
          "auras":"External collaborators"
