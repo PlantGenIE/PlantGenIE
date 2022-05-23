@@ -190,13 +190,13 @@
          "id":"l34",
          "from":"nico",
          "to":"teitur",
-         "type":"coworker"
+         "type":"upscb_coworker"
       },
       {
          "id":"l36",
          "from":"nico",
          "to":"kristina",
-         "type":"coworker"
+         "type":"upscb_coworker"
       },
       {
          "id":"l37",
