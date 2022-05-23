@@ -1,71 +1,346 @@
 {
-    "nodes":[
-        {"id":"nat", "age":20, "name":"Nathaniel Street", "loaded":true, "auras":"StreetLab"},
-        {"id":"elena", "age":15, "name":"Elena van Zalen", "loaded":true, "auras": "StreetLab"},
-        {"id":"vikash", "age":16, "name":"Vikash Kumar", "loaded":true, "auras": "StreetLab"},
-		{"id":"andreas", "age":35, "name":"Andreas Schneider", "loaded":true, "auras": "StreetLab"},
-        {"id":"sara", "age":35, "name":"Sara Westman", "loaded":true,  "auras": "StreetLab"},
-        {"id":"eduardo", "age":38, "name":"Eduardo Rodriguez", "loaded":true, "auras": "StreetLab"},
-        {"id":"camila", "age":42, "name":"Camilla Canovi", "loaded":true, "auras": "StreetLab"},
-        {"id":"chanaka", "age":37, "name":"Chanaka Mannapperuma", "loaded":true, "auras": "StreetLab"},
-        {"id":"teitur", "age":60, "name":"Teitur Ahlgren Kalman", "loaded":true, "auras":["StreetLab", "UPSCb"]},
-        {"id":"nico", "age":63, "name":"Nicolas Delhomme", "loaded":true, "auras": ["StreetLab", "UPSCb"]},
-        {"id":"kristina", "age":17, "name":"Kristina Benevidez", "loaded":true, "auras": ["StreetLab", "UPSCb"]},
-        
-		{"id":"hannele", "age":21, "name":"Hannele Tuominen", "loaded":true, "auras": ""},
-        {"id":"totte", "age":26, "name":"Totte Niittyla", "loaded":true, "auras":"" },
-        {"id":"torgeir", "age":29, "name":"Torgeir Hvidsten", "loaded":true, "auras":"External collaborators"},
-        {"id":"andrea", "age":28, "name":"Andrea Zuccolo", "loaded":true, "auras":"External collaborators"},
-        {"id":"vaughan", "age":21, "name":"Vaughan Hurry", "loaded":true, "auras": ""},
-        {"id":"torgny", "age":17, "name":"Torgny Näsholm", "loaded":true, "auras": ""}, 
-        {"id":"sandra", "age":26, "name":"Sandra Jämtgård", "loaded":true, "auras": ""},
-		{"id":"wout", "age":26, "name":"Wout Boerjan", "loaded":true, "auras": "External collaborators"}
+   "nodes":[
+      {
+         "id":"nat",
+         "age":20,
+         "name":"Nathaniel Street",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"elena",
+         "age":15,
+         "name":"Elena van Zalen",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"vikash",
+         "age":16,
+         "name":"Vikash Kumar",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"andreas",
+         "age":35,
+         "name":"Andreas Schneider",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"sara",
+         "age":35,
+         "name":"Sara Westman",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"eduardo",
+         "age":38,
+         "name":"Eduardo Rodriguez",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"camila",
+         "age":42,
+         "name":"Camilla Canovi",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"chanaka",
+         "age":37,
+         "name":"Chanaka Mannapperuma",
+         "loaded":true,
+         "auras":"StreetLab"
+      },
+      {
+         "id":"teitur",
+         "age":60,
+         "name":"Teitur Ahlgren Kalman",
+         "loaded":true,
+         "auras":[
+            "StreetLab",
+            "UPSCb"
+         ]
+      },
+      {
+         "id":"nico",
+         "age":63,
+         "name":"Nicolas Delhomme",
+         "loaded":true,
+         "auras":[
+            "StreetLab",
+            "UPSCb"
+         ]
+      },
+      {
+         "id":"kristina",
+         "age":17,
+         "name":"Kristina Benevidez",
+         "loaded":true,
+         "auras":[
+            "StreetLab",
+            "UPSCb"
+         ]
+      },
+      {
+         "id":"hannele",
+         "age":21,
+         "name":"Hannele Tuominen",
+         "loaded":true,
+         "auras":""
+      },
+      {
+         "id":"totte",
+         "age":26,
+         "name":"Totte Niittyla",
+         "loaded":true,
+         "auras":""
+      },
+      {
+         "id":"torgeir",
+         "age":29,
+         "name":"Torgeir Hvidsten",
+         "loaded":true,
+         "auras":"External collaborators"
+      },
+      {
+         "id":"andrea",
+         "age":28,
+         "name":"Andrea Zuccolo",
+         "loaded":true,
+         "auras":"External collaborators"
+      },
+      {
+         "id":"vaughan",
+         "age":21,
+         "name":"Vaughan Hurry",
+         "loaded":true,
+         "auras":""
+      },
+      {
+         "id":"torgny",
+         "age":17,
+         "name":"Torgny Näsholm",
+         "loaded":true,
+         "auras":""
+      },
+      {
+         "id":"sandra",
+         "age":26,
+         "name":"Sandra Jämtgård",
+         "loaded":true,
+         "auras":""
+      },
+      {
+         "id":"wout",
+         "age":26,
+         "name":"Wout Boerjan",
+         "loaded":true,
+         "auras":"External collaborators"
+      }
    ],
-
-    "links":[
-        {"id":"l01", "from":"nat", "to":"elena", "type":"coworker"},
-        {"id":"l02", "from":"nat", "to":"vikash", "type":"coworker"},
-        {"id":"l03", "from":"nat", "to":"andreas", "type":"coworker"},
-        {"id":"l04", "from":"nat", "to":"sara", "type":"coworker"},
-        {"id":"l07", "from":"nat", "to":"eduardo", "type":"coworker"},
-        {"id":"l15", "from":"nat", "to":"camila", "type":"coworker"},
-        {"id":"l23", "from":"nat", "to":"chanaka", "type":"coworker"},
-        {"id":"l28", "from":"nat", "to":"teitur", "type":"coworker"},
-        {"id":"l29", "from":"nat", "to":"nico", "type":"coworker"},
-        {"id":"l33", "from":"nat", "to":"kristina", "type":"coworker"},
-		
-        {"id":"l34", "from":"nico", "to":"teitur", "type":"coworker"},
-        {"id":"l36", "from":"nico", "to":"kristina", "type":"coworker"},
-		
-		{"id":"l37", "from":"chanaka", "to":"sara", "type":"coworker"},
-        {"id":"l38", "from":"camila", "to":"elena", "type":"coworker"},
-		
-		{"id":"l39", "from":"vikash", "to":"camila", "type":"coworker"},
-        {"id":"l40", "from":"vikash", "to":"andreas", "type":"coworker"},
-		{"id":"l42", "from":"vikash", "to":"teitur", "type":"coworker"},
-		
-        {"id":"l44", "from":"teitur", "to":"andreas", "type":"coworker"},
-		{"id":"l45", "from":"teitur", "to":"eduardo", "type":"coworker"},
-		{"id":"l46", "from":"teitur", "to":"chanaka", "type":"coworker"},
-		
-		{"id":"l47", "from":"eduardo", "to":"camila", "type":"coworker"},
-        {"id":"l48", "from":"eduardo", "to":"vikash", "type":"coworker"},
-		 {"id":"l50", "from":"eduardo", "to":"chanaka", "type":"coworker"},
-		
-		{"id":"l51", "from":"sara", "to":"elena", "type":"coworker"},
-		
-		{"id":"l52", "from":"hannele", "to":"sara", "type":"external"},
-		{"id":"l53", "from":"torgeir", "to":"eduardo", "type":"external"},
-		{"id":"l54", "from":"totte", "to":"eduardo", "type":"external"},
-				{"id":"l542", "from":"hannele", "to":"eduardo", "type":"external"},
-
-		
-		{"id":"l55", "from":"andreas", "to":"torgny", "type":"external"},
-		{"id":"l56", "from":"camila", "to":"andrea", "type":"external"},
-		
-		{"id":"l57", "from":"andreas", "to":"vaughan", "type":"external"},
-		{"id":"l59", "from":"wout", "to":"sara", "type":"external"},
-		{"id":"l60", "from":"sandra", "to":"andreas", "type":"external"}
-	
-	]
+   "links":[
+      {
+         "id":"l01",
+         "from":"nat",
+         "to":"elena",
+         "type":"coworker"
+      },
+      {
+         "id":"l02",
+         "from":"nat",
+         "to":"vikash",
+         "type":"coworker"
+      },
+      {
+         "id":"l03",
+         "from":"nat",
+         "to":"andreas",
+         "type":"coworker"
+      },
+      {
+         "id":"l04",
+         "from":"nat",
+         "to":"sara",
+         "type":"coworker"
+      },
+      {
+         "id":"l07",
+         "from":"nat",
+         "to":"eduardo",
+         "type":"coworker"
+      },
+      {
+         "id":"l15",
+         "from":"nat",
+         "to":"camila",
+         "type":"coworker"
+      },
+      {
+         "id":"l23",
+         "from":"nat",
+         "to":"chanaka",
+         "type":"coworker"
+      },
+      {
+         "id":"l28",
+         "from":"nat",
+         "to":"teitur",
+         "type":"coworker"
+      },
+      {
+         "id":"l29",
+         "from":"nat",
+         "to":"nico",
+         "type":"coworker"
+      },
+      {
+         "id":"l33",
+         "from":"nat",
+         "to":"kristina",
+         "type":"coworker"
+      },
+      {
+         "id":"l34",
+         "from":"nico",
+         "to":"teitur",
+         "type":"coworker"
+      },
+      {
+         "id":"l36",
+         "from":"nico",
+         "to":"kristina",
+         "type":"coworker"
+      },
+      {
+         "id":"l37",
+         "from":"chanaka",
+         "to":"sara",
+         "type":"coworker"
+      },
+      {
+         "id":"l38",
+         "from":"camila",
+         "to":"elena",
+         "type":"coworker"
+      },
+      {
+         "id":"l39",
+         "from":"vikash",
+         "to":"camila",
+         "type":"coworker"
+      },
+      {
+         "id":"l40",
+         "from":"vikash",
+         "to":"andreas",
+         "type":"coworker"
+      },
+      {
+         "id":"l42",
+         "from":"vikash",
+         "to":"teitur",
+         "type":"coworker"
+      },
+      {
+         "id":"l44",
+         "from":"teitur",
+         "to":"andreas",
+         "type":"coworker"
+      },
+      {
+         "id":"l45",
+         "from":"teitur",
+         "to":"eduardo",
+         "type":"coworker"
+      },
+      {
+         "id":"l46",
+         "from":"teitur",
+         "to":"chanaka",
+         "type":"coworker"
+      },
+      {
+         "id":"l47",
+         "from":"eduardo",
+         "to":"camila",
+         "type":"coworker"
+      },
+      {
+         "id":"l48",
+         "from":"eduardo",
+         "to":"vikash",
+         "type":"coworker"
+      },
+      {
+         "id":"l50",
+         "from":"eduardo",
+         "to":"chanaka",
+         "type":"coworker"
+      },
+      {
+         "id":"l51",
+         "from":"sara",
+         "to":"elena",
+         "type":"coworker"
+      },
+      {
+         "id":"l52",
+         "from":"hannele",
+         "to":"sara",
+         "type":"external"
+      },
+      {
+         "id":"l53",
+         "from":"torgeir",
+         "to":"eduardo",
+         "type":"external"
+      },
+      {
+         "id":"l54",
+         "from":"totte",
+         "to":"eduardo",
+         "type":"external"
+      },
+      {
+         "id":"l542",
+         "from":"hannele",
+         "to":"eduardo",
+         "type":"external"
+      },
+      {
+         "id":"l55",
+         "from":"andreas",
+         "to":"torgny",
+         "type":"external"
+      },
+      {
+         "id":"l56",
+         "from":"camila",
+         "to":"andrea",
+         "type":"external"
+      },
+      {
+         "id":"l57",
+         "from":"andreas",
+         "to":"vaughan",
+         "type":"external"
+      },
+      {
+         "id":"l59",
+         "from":"wout",
+         "to":"sara",
+         "type":"external"
+      },
+      {
+         "id":"l60",
+         "from":"sandra",
+         "to":"andreas",
+         "type":"external"
+      }
+   ]
 }
