@@ -4,18 +4,24 @@
          "id":"nat",
          "name":"Nathaniel Street",
          "loaded":true,
+         "title":"Group Leader",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"elena",
          "name":"Elena van Zalen",
          "loaded":true,
+         "title":"PhD Student",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"vikash",
          "name":"Vikash Kumar",
          "loaded":true,
+         "title":"Research Engineer",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
@@ -23,36 +29,48 @@
          "age":2,
          "name":"Andreas Schneider",
          "loaded":true,
+         "title":"PhD Student",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"sara",
          "name":"Sara Westman",
          "loaded":true,
+         "title":"PhD Student",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"eduardo",
          "name":"Eduardo Rodriguez",
          "loaded":true,
+         "title":"PhD Student",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"camila",
          "name":"Camilla Canovi",
          "loaded":true,
+         "title":"PhD Student",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"chanaka",
          "name":"Chanaka Mannapperuma",
          "loaded":true,
+         "title":"Research Engineer",
+         "desc":"",
          "auras":"StreetLab"
       },
       {
          "id":"teitur",
          "name":"Teitur Ahlgren Kalman",
          "loaded":true,
+         "title":"PhD Student",
+         "desc":"",
          "auras":[
             "StreetLab",
             "UPSCb"
@@ -62,6 +80,8 @@
          "id":"nico",
          "name":"Nicolas Delhomme",
          "loaded":true,
+         "title":"Platform Manager",
+         "desc":"",
          "auras":[
             "StreetLab",
             "UPSCb"
@@ -71,6 +91,8 @@
          "id":"kristina",
          "name":"Kristina Benevidez",
          "loaded":true,
+         "title":"Research Engineer, NGI contact person",
+         "desc":"",
          "auras":[
             "StreetLab",
             "UPSCb"
@@ -80,48 +102,64 @@
          "id":"hannele",
          "name":"Hannele Tuominen",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":""
       },
       {
          "id":"totte",
          "name":"Totte Niittyla",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":""
       },
       {
          "id":"torgeir",
          "name":"Torgeir Hvidsten",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":"External collaborators"
       },
       {
          "id":"andrea",
          "name":"Andrea Zuccolo",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":"External collaborators"
       },
       {
          "id":"vaughan",
          "name":"Vaughan Hurry",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":""
       },
       {
          "id":"torgny",
          "name":"Torgny Näsholm",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":""
       },
       {
          "id":"sandra",
          "name":"Sandra Jämtgård",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":""
       },
       {
          "id":"wout",
          "name":"Wout Boerjan",
          "loaded":true,
+         "title":"",
+         "desc":"",
          "auras":"External collaborators"
       }
    ],
