@@ -364,9 +364,9 @@
       },
        {
          "id":"161",
-         "from":"vikash",
-         "to":"sara",
-         "type":"coworker"
+         "from":"sara",
+         "to":"vikash",
+         "type":"external"
       }
    ]
 }
