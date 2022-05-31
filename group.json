@@ -361,6 +361,12 @@
          "from":"sandra",
          "to":"andreas",
          "type":"external"
-      }
+      },
+       {
+         "id":"161",
+         "from":"vikash",
+         "to":"sara",
+         "type":"coworker"
+      },
    ]
 }
