@@ -308,6 +308,12 @@
          "to":"elena",
          "type":"coworker"
       },
+       {
+         "id":"161",
+         "from":"sara",
+         "to":"vikash",
+         "type":"coworker"
+      },
       {
          "id":"l52",
          "from":"hannele",
@@ -361,12 +367,7 @@
          "from":"sandra",
          "to":"andreas",
          "type":"external"
-      },
-       {
-         "id":"161",
-         "from":"sara",
-         "to":"vikash",
-         "type":"coworker"
       }
+      
    ]
 }
